@@ -86,10 +86,6 @@ nav a {
 
 /* Company Logo Style */
 
-hr {
-    border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
-    border-image-slice: 1;
-}
 
 .container2 {
     width: 1100px;
@@ -104,11 +100,7 @@ hr {
 
 }
 
-/* Collection Section Style */
-.container3 {
-    width: 1070px;
-    margin: auto;
-}
+
 
 .container3 h2 {
     text-align: center;
@@ -173,17 +165,6 @@ hr {
     font-weight: 700;
 }
 
-/* Sign-up Section Style */
-.container4 {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 150px 0;
-    background-image: url(images/Gear.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .sign-up-form {
     text-align: center;
