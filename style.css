@@ -33,6 +33,15 @@ nav a {
     font-weight: 600;
     margin-left: 30px;
 }
+.nav-link{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+    background-color: #3A3A3A;
+}
 
 /* Top Section Style */
 .container {
@@ -57,13 +66,13 @@ nav a {
     font-weight: 700;
     align-items: center;
     justify-content: space-between;
-    width: 18%;
+    width: 6em;
     transition: width 0.5s ease-in-out;
 }
 
 .link-button:hover {
     background-color: #73ebc9;
-    width: 30%;
+    width: 10em;
 }
 
 .section-top h1 {
@@ -187,7 +196,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px;
+    padding: 150px 0;
     background-image: url(images/Gear.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,6 +207,7 @@ hr {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 15px;
+    width: 30em;
 }
 
 .sign-up-form h3 {
@@ -280,7 +290,8 @@ footer p {
         display: inline;
     }
 
-    nav .nav-link {
+    nav .nav-link,
+    .search-icon {
         display: none;
     }
 
@@ -300,11 +311,15 @@ footer p {
     }
 
     .link-button:hover {
-        width: 18%;
+        width: 6em;
     }
 
     .main-photo {
         margin: auto auto 100px auto;
+    }
+
+    .main-photo img {
+        width: 300px;
     }
 
     .container2 {
@@ -332,6 +347,10 @@ footer p {
     .container3 a {
         text-align: center;
     }
+
+    .sign-up-form {
+        width: 80%;
+    }
 }
 
 /* Tablet Devices */
@@ -349,7 +368,8 @@ footer p {
         display: inline;
     }
 
-    nav .nav-link {
+    nav .nav-link, 
+    .search-icon {
         display: none;
     }
 
@@ -366,11 +386,10 @@ footer p {
 
     .link-button {
         margin: auto;
-        width: 12%;
     }
 
     .link-button:hover {
-        width: 12%;
+        width: 6em;
     }
 
     .main-photo {
